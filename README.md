@@ -1,4 +1,5 @@
 # anki-mcp MCP Server
+[![smithery badge](https://smithery.ai/badge/@CamdenClark/anki-mcp-server)](https://smithery.ai/server/@CamdenClark/anki-mcp-server)
 
 A server to integrate with Anki via the AnkiConnect   plugin
 
@@ -57,6 +58,14 @@ On Windows: `%APPDATA%/Claude/claude_desktop_config.json`
     }
   }
 }
+```
+
+### Installing via Smithery
+
+To install Anki Integration Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@CamdenClark/anki-mcp-server):
+
+```bash
+npx -y @smithery/cli install @CamdenClark/anki-mcp-server --client claude
 ```
 
 ### Debugging
